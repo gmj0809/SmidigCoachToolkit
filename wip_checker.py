@@ -7,6 +7,7 @@ tasks = [
     {"task_id": 3, "name": "Task C", "status": "Done"},
     {"task_id": 4, "name": "Task D", "status": "In Progress"},
     {"task_id": 5, "name": "Task E", "status": "In Progress"},
+    {"task_id": 6, "name": "Task F", "status": "In Progress"},
 ] 
 
 # Define WIP limit
