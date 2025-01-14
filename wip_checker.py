@@ -14,7 +14,7 @@ tasks = [
 WIP_LIMIT = 3
 
 # Count tasks in "In Progress"
-in_progress_count = sum(1 for task in tasks if ["status"] == "In Progress")
+in_progress_count = sum(1 for task in tasks if task ["status"] == "In Progress")
 
 # Print the count and check against WIP limit
 print(f"Number of tasks in progress: {in_progress_count}")
