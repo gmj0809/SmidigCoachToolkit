@@ -9,7 +9,7 @@ today = datetime.now()
 days_remaining = (Sprint_end - today).days
 
 if days_remaining > 0:
-    print(f"There are {days_remaining} days left in the sprint!")
+    print(f"There are {days_remaining} days left in the sprint NewBie!")
 else:
     print("The sprint has ended. Timefor a retrospective")
     
